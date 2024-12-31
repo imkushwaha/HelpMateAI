@@ -80,9 +80,6 @@ HelpMateAI is built using the following technologies:
 
 - Use a Large Language Model (LLM) to generate the final response.
 
-
-## High Level Architecture Diagram
-
 ![b77d0c75-c07b-44e1-90ed-366bd3138808-generation](https://github.com/user-attachments/assets/06078dcd-45f4-4d1b-a8a3-a8a0962993ef)
 
 
