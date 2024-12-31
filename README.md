@@ -61,11 +61,11 @@ HelpMateAI is built using the following technologies:
 
 ## System Architecture
 
-### `Step 1: Build the Vector Store`
+### Step 1: Build the Vector Store
 
 - Use an embedding model to convert document chunks into vector representations and store them in the vector database.
 
-## `Step 2: Cache, Search, and Rerank`
+## Step 2: Cache, Search, and Rerank
 - Process user queries:
 
     - First, search in the cache for a quick response.
@@ -74,12 +74,16 @@ HelpMateAI is built using the following technologies:
 
 - Retrieve top-k closest document chunks and rerank them using Cross Encoders for semantic accuracy.
 
-## `Step 3: Generative Search`
+## Step 3: Generative Search
 
 - Combine the query, prompt, and top 3 reranked document chunks.
 
 - Use a Large Language Model (LLM) to generate the final response.
 
+
+## High Level Architecture Diagram
+
+![b77d0c75-c07b-44e1-90ed-366bd3138808-generation](https://github.com/user-attachments/assets/06078dcd-45f4-4d1b-a8a3-a8a0962993ef)
 
 
 ## User Interaction
